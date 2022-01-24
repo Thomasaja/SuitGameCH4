@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SuitGame</string>
+    <string name="tv_player">PLAYER</string>
+    <string name="tv_com">COM</string>
+    <string name="text_won">YOU WON</string>
+    <string name="text_lose">YOU LOSE</string>
+    <string name="text_tie">YOU TIE</string>
+</resources>
