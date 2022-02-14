@@ -1,8 +1,22 @@
 <resources>
     <string name="app_name">SuitGame</string>
-    <string name="tv_player">PLAYER</string>
-    <string name="tv_com">COM</string>
-    <string name="text_won">YOU WON</string>
-    <string name="text_lose">YOU LOSE</string>
-    <string name="text_tie">YOU TIE</string>
+    <string name="text_enemy">Com</string>
+    <string name="text_cimot_company">Cimot Company</string>
+    <string name="text_welcome_to">Welcome To</string>
+    <string name="text_write_your_name">Write Your Name</string>
+    <string name="text_player_vs_player">PLAYER VS PLAYER</string>
+    <string name="text_title_menu">Hi %s !\n Select one do you wanna play !</string>
+    <string name="text_player_vs_computer">PLAYER VS COMPUTER</string>
+    <string name="write_your_name">Write your name</string>
+    <string name="text_player"> %s </string>
+    <string name="text_com">COM</string>
+    <string name="text_player2">Player2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_result_won">%s Won !!!</string>
+    <string name="text_result_lose">%s Lose </string>
+    <string name="text_player2_won">Player 2 Won !!! </string>
+    <string name="text_tap_the_following_do_you_want_to_choose">TAP THE FOLLOWING DO YOU WANT TO CHOOSE :</string>
+    <string name="text_suit_game">SUIT GAME</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
 </resources>

@@ -4,18 +4,24 @@
     <style name="Text.Black" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@color/black</item>
     </style>
-
-    <style name="Text.28" parent="Text.Black">
-        <item name="android:textSize">@dimen/_28ssp</item>
-        <item name="fontFamily">@font/choco_font</item>
+    <style name="Text.Light2" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/light2</item>
+    </style>
+    <style name="Name" parent="Text.Light2">
+        <item name="android:textSize">@dimen/_22ssp</item>
+        <item name="fontFamily">@font/colatempta_font</item>
     </style>
 
-    <style name="Text.Teal" parent="TextAppearance.AppCompat">
-        <item name="android:textColor">@color/teal_200</item>
+    <style name="Text.Black14ssp" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Following" parent="Text.Black14ssp">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="fontFamily">@font/colatempta_font</item>
     </style>
 
-    <style name="Text.30" parent="Text.Teal">
-        <item name="android:textSize">@dimen/_30ssp</item>
+    <style name="Welcome" parent="Text.Black">
+        <item name="android:textSize">@dimen/_20ssp</item>
         <item name="fontFamily">@font/choco_font</item>
     </style>
 
@@ -27,6 +33,39 @@
         <item name="android:textSize">@dimen/_36ssp</item>
         <item name="fontFamily">@font/colatempta_font</item>
     </style>
+
+    <style name="SplashScreen" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Company" parent="SplashScreen">
+        <item name="android:textSize">@dimen/_30ssp</item>
+        <item name="fontFamily">@font/colatempta_font</item>
+    </style>
+
+    <style name="Style" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Title" parent="Style">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="fontFamily">@font/narrow_font</item>
+    </style>
+
+    <style name="Title2" parent="Style">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/colatempta_font</item>
+    </style>
+
+    <style name="Text.Custom" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/light</item>
+    </style>
+    <style name="Main" parent="Text.Custom">
+        <item name="android:textSize">@dimen/_44ssp</item>
+        <item name="fontFamily">@font/colatempta_font</item>
+    </style>
+
+
 
 
 </resources>

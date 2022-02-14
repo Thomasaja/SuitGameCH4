@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_menu"
+    tools:context=".ui.menu.MenuGameActivity">
+
+    <TextView
+        android:id="@+id/tv_field_name"
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:text="Hi Thom\n select one do you wanna to play?" />
+
+    <ImageView
+        android:id="@+id/iv_player_vs_player"
+        android:layout_width="@dimen/_100sdp"
+        android:padding="@dimen/_4sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:src="@drawable/ic_pvp"
+       app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_field_name" />
+
+    <ImageView
+        android:id="@+id/iv_player_vs_computer"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:padding="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:src="@drawable/ic_pvc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_player_vs_player" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_vs_player"
+        android:layout_marginTop="@dimen/_10sdp"
+        style="@style/Title2"
+        android:text="@string/text_player_vs_player"
+        android:textAllCaps="true"
+        app:layout_constraintTop_toBottomOf="@id/iv_player_vs_player"
+        app:layout_constraintEnd_toEndOf="@id/iv_player_vs_player"
+        app:layout_constraintStart_toStartOf="@id/iv_player_vs_player"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_vs_computer"
+        android:layout_marginTop="@dimen/_10sdp"
+        style="@style/Title2"
+        android:text="@string/text_player_vs_computer"
+        android:textAllCaps="true"
+        app:layout_constraintTop_toBottomOf="@id/iv_player_vs_computer"
+        app:layout_constraintEnd_toEndOf="@id/iv_player_vs_computer"
+        app:layout_constraintStart_toStartOf="@id/iv_player_vs_computer"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
